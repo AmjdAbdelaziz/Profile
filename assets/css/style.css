@@ -193,7 +193,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #990033;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/1602656359637.jpg)no-repeat;
+    background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -232,8 +232,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #990033;}
     border-radius: 3px;
     text-transform: capitalize;
     color: #fff;
-    background: #b636ff;
-    border:1px solid #b636ff;
+    background: #990033;
+    border:1px solid #990033;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -409,7 +409,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 37px;
 }
 .progress-bar {
-   background: #b636ff;
+   background: #990033;
     border-radius: 3px;
    -webkit-transition: width 1.5s ease-in-out;
    -ms-transition: width 1.5s ease-in-out;
@@ -424,7 +424,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #b636ff;
+   color: #990033;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
@@ -492,7 +492,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .timeline-content h4.title {
     font-size: 16px;
     font-weight: 400;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 .timeline-content h5 {
     color: #636a82;
@@ -503,6 +503,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline .description {
     font-size: 14px;
     color: #999fb3;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 10px;
 }
 .main-timeline .timeline-content.right{
     float: right;
@@ -569,10 +572,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width:100%;
     height: 100%;
     background: #990033;
-    background: -moz-linear-gradient(left, #990033 0%, #b636ff 100%);
-    background: -webkit-linear-gradient(left, #990033 0%,#b636ff 100%);
-    background: linear-gradient(to right, #990033 0%,#b636ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990033', endColorstr='#b636ff',GradientType=1 );
+    background: -moz-linear-gradient(left, #990033 0%, #990033 100%);
+    background: -webkit-linear-gradient(left, #990033 0%,#990033 100%);
+    background: linear-gradient(to right, #990033 0%,#990033 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#990033', endColorstr='#990033',GradientType=1 );
     -webkit-transform:scale(0);
     -moz-transform:scale(0);
     -ms-transform:scale(0);
@@ -720,8 +723,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: #990033;
+    border: 1px solid #990033;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -798,7 +801,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     transition: .3s;
 }
 .hm-foot-icon ul li>a:hover{
-    color: #b636ff;
+    color: #990033;
 }/*hm-foot-icon*/
 
 .hm-footer-copyright p{
@@ -822,8 +825,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 20px;
     cursor: pointer;
     color: #fff;
-    background:#b636ff;
-	border:1px solid #b636ff;
+    background:#990033;
+	border:1px solid #990033;
 	border-radius:50%;
 	-webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -834,8 +837,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 #scroll-Top  .return-to-top:hover {
     background:#fff;
-    color: #b636ff;
-	border:1px solid #b636ff;
+    color: #990033;
+	border:1px solid #990033;
 }
 
 #scroll-Top  .return-to-top i{
@@ -854,5 +857,25 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+.CVCompanyInfo {
+    text-align:right;
+    vertical-align:middle;
+}
+.CVJobTitle {
+    text-align: left;
+    vertical-align: middle;
+}
+.CVDates {
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 5px;
+    font-size: 10px;
+}
+.CVLocations {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+    font-size:10px;
 }
 /*========================Thank you=================
