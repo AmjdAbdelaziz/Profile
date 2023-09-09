@@ -193,7 +193,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #990033;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/1602656359637.jpg)no-repeat;
+    background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -878,4 +878,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-top: 5px;
     font-size:10px;
 }
+.iFrameDoc {
+    width: 95%;
+    height: 500px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
 /*========================Thank you=================
