@@ -193,7 +193,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #990033;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/1602656359637.jpg)no-repeat;
+    background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -883,6 +883,29 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     height: 500px;
     vertical-align: top;
     text-align: center;
+}
+
+
+.TblHdr {
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+    border-color: gray;
+    border-bottom-style: groove;
+    border-width:thin;
+}
+.TblCell {
+    text-align: left;
+    vertical-align: middle;
+    padding:10px;
+    margin:10px;
+   
+}
+.GridItem {
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 5px;
 }
 
 
